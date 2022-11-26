@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/* ........................................... */
+body {
+	background: rgb(255, 255, 255);
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+/* header-block */
+.header-block {
+	text-align: center;
+}
+
+.header-block__title {
+	font-size: 36px;
+	line-height: 42px;
+	padding: 40px 0;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.header-block__separator {
+	width: 170px;
+	height: 1px;
+	background-color: #EC7979;
+	margin: 0 auto 30px;
+}
+
+.header-block__subtitle {
+	line-height: 21px;
+	color: #86878B;
+}
+
+
+/* ......................awesome ...................*/
+.awesome__header-block {
+	margin: 0 0 71px 0;
+}
+
+.awesome__items {
+	display: flex;
+	text-align: center;
+	margin: 0 -15px;
+}
+
+.items__item {
+	padding: 0 15px;
+}
+
+.items {}
+
+.item {}
+
+.item__image img {
+	width: 65px;
+}
+
+.item__image {
+	border: 2px solid #EC7979;
+	border-radius: 50%;
+	width: 65px;
+	height: 65px;
+	margin: 0 auto 39px;
+}
+
+.item__image--lamp {
+	background: url("pic/lamp.png") center/70% no-repeat;
+}
+
+.item__image--lightning {
+	background: url("pic/Vector.png") center/50% no-repeat;
+}
+
+.item__image--keyboard {
+	background: url("pic/Vector-1.png") center/70% no-repeat;
+}
+
+.item__title {
+	font-size: 24px;
+	line-height: 33px;
+	text-transform: capitalize;
+	margin: 0 0 8px 0;
+}
+
+.item__text {
+	line-height: 21px;
+}
+
+/* ....................tabs....................... */
+.tabs {
+	font-family: "Open Sans";
+	font-weight: 400;
+	margin: 0 0 50px 0;
+}
+
+.tabs__wrapper {}
+
+.tabs__item {
+	display: none;
+}
+
+.tabs__label {
+	padding: 8px 83px;
+	border-radius: 5px 5px 0px 0px;
+	background-color: rgb(255, 255, 255);
+
+	/* чтоб убрать отступ между label*/
+	margin: 0 -2px;
+	border-bottom: 1px solid #C6CBCD;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.tabs__label1 {
+	margin: 0 -2px 0 0;
+}
+
+
+.tabs__cards {
+	margin: 11px 0 0 0;
+	border: 1px solid #C6CBCD;
+	background-color: rgb(255, 255, 255);
+}
+
+#tabs__item1:checked~.tabs__cards .tabs__content1,
+#tabs__item2:checked~.tabs__cards .tabs__content2,
+#tabs__item3:checked~.tabs__cards .tabs__content3 {
+	display: block;
+}
+
+#tabs__item1:checked~.tabs__label1,
+#tabs__item2:checked~.tabs__label2,
+#tabs__item3:checked~.tabs__label3 {
+	border: 1px solid #C6CBCD;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.tabs__content {
+	display: none;
+}
+
+.cards__row {
+	display: flex;
+}
+
+.cards__info-col {
+	padding: 55px 30px 55px 100px;
+}
+
+.cards__pic-col img {
+	max-width: 470px;
+	max-height: 500px;
+}
+
+
+.cards__title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 41px;
+	margin: 0 0 48px 0;
+}
+
+.cards__text {
+	font-family: 'Raleway';
+	line-height: 21px;
+	margin: 0 0 27px 0;
+}
+
+.cards__text p:not(:last-child) {
+	margin: 0 0 20px 0;
+}
+
+.cards__button {
+	color: #FFFFFF;
+	background-color: #EC7979;
+	font-weight: 600;
+	line-height: 25px;
+	text-transform: capitalize;
+	max-width: 270px;
+	padding: 20px 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.cards__button:hover {
+	background: #AB4949;
+	transition: all 0.3s;
+}
+
+.cards__button:active {
+	background-color: #EC7979;
+	box-shadow: inset 0px 0px 10px #AB4949;
+}
