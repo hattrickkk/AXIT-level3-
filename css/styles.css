@@ -377,6 +377,11 @@ body {
 
 .socials__pic {
 	padding: 0 15px;
+	transition: all 0.3s;
+}
+
+.socials__pic img:hover {
+	transform: scale(1.1);
 }
 
 /* ......................awesome ...................*/
@@ -700,7 +705,7 @@ body {
 
 .form-contact__inp-message {
 	height: 100%;
-	resize: none; 
+	resize: none;
 }
 
 .form-contact__button {
@@ -726,9 +731,14 @@ body {
 
 .footer__pic {
 	padding: 0 16.5px;
+	transition: all 0.3s;
 }
 
 .footer__text {
 	color: rgba(255, 255, 255, 0.5);
 	text-align: center;
+}
+
+.footer__pic img:hover {
+	transform: scale(1.1);
 }
