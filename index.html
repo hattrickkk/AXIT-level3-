@@ -8,8 +8,97 @@
 
 <body>
 	<div class="wrapper">
-		<!-- временно, для отступа -->
-		<br><br>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">
+						<img src="pic/logo.svg" alt="logo">
+					</div>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item"><a class="menu__link" href="#">features</a></li>
+							<li class="menu__item"><a class="menu__link" href="#">About</a></li>
+							<li class="menu__item"><a class="menu__link" href="#">Pricing</a></li>
+							<li class="menu__item"><a class="menu__link" href="#">Reviews</a></li>
+							<li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="banner">
+			<div class="container">
+				<div class="banner__inner">
+					<div class="banner__info">
+						<div class="banner__logo">
+							<img src="pic/logo_banner.svg" alt="logo">
+						</div>
+						<div class="banner__header-block header-block">
+							<h2 class="header-block__title header-block__title--white">
+								MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+							</h2>
+							<h5 class="header-block__subtitle header-block__subtitle--white">
+								Lorem ipsum dolor sit amet, <br>
+								consectetur adipiscing elit
+							</h5>
+						</div>
+						<a class="banner__button button button--white" href="#">Download</a>
+					</div>
+					<form class="banner__form form-banner" action="">
+						<div class="form-banner__inner">
+							<div class="form-banner__inputs">
+								<h4 class="form-banner__title">Try Your <span>FREE </span>Trial Today</h4>
+								<input class="form-banner__inp-name input" type="text" placeholder="Name" name="Name">
+								<input class="form-banner__inp-email input" type="email" placeholder="Email"
+									name="Email">
+								<input class="form-banner__inp-pass input" type="password" placeholder="Password"
+									name="Password" />
+							</div>
+							<input class="form-banner__inp-btn button button--red" type="submit" value="Get Started">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<div class="socials">
+			<div class="container">
+				<div class="socials__inner">
+					<div class="socials__info">
+						<h4 class="socials__title">Social Media</h4>
+						<p class="socials__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Aenean euismod bibendum laoreet.
+						</p>
+					</div>
+					<div class="socials__images">
+						<div class="socials__pic">
+							<a href="#"><img src="pic/facebook_icon.svg" alt="facebook"></a>
+						</div>
+						<div class="socials__pic">
+							<a href="#"><img src="pic/twitter_icon.svg" alt="twitter"></a>
+						</div>
+						<div class="socials__pic">
+							<a href="#"><img src="pic/linkedin_icon.svg" alt="linkedin"></a>
+						</div>
+						<div class="socials__pic">
+							<a href="#"><img src="pic/pinterest_icon.svg" alt="pinterest"></a>
+						</div>
+						<div class="socials__pic">
+							<a href="#"><img src="pic/instagram_icon.svg" alt="instagram"></a>
+						</div>
+						<div class="socials__pic">
+							<a href="#"><img src="pic/github_icon.svg" alt="github"></a>
+						</div>
+						<div class="socials__pic">
+							<a href="#"><img src="pic/rss_icon.svg" alt="rss"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="tabs">
 			<div class="container">
 				<div class="tabs__wrapper">
@@ -37,7 +126,7 @@
 											bibendum laoreet.
 										</p>
 									</div>
-									<a class="cards__button" href="#">Download</a>
+									<a class="cards__button button button--red" href="#">Download</a>
 								</div>
 								<div class="cards__pic-col">
 									<img src="pic/content1.jpg" alt="">
@@ -61,7 +150,7 @@
 											bibendum laoreet.
 										</p>
 									</div>
-									<a class="cards__button" href="#">Download</a>
+									<a class="cards__button button button--red" href="#">Download</a>
 								</div>
 								<div class="cards__pic-col">
 									<img src="pic/content2.jpg" alt="">
@@ -85,7 +174,7 @@
 											bibendum laoreet.
 										</p>
 									</div>
-									<a class="cards__button" href="#">Download</a>
+									<a class="cards__button button button--red" href="#">Download</a>
 								</div>
 								<div class="cards__pic-col">
 									<img src="pic/content3.jpg" alt="">
@@ -101,7 +190,6 @@
 			<div class="container">
 				<div class="awesome__header-block header-block">
 					<h2 class="header-block__title">WHY THIS IS AWESOME</h2>
-					<hr class="header-block__separator">
 					<h5 class="header-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
 				</div>
 				<div class="awesome__items items">
@@ -143,7 +231,6 @@
 			<div class="container">
 				<div class="pricing__header-block header-block">
 					<h2 class="header-block__title">pricing options</h2>
-					<hr class="header-block__separator">
 					<h5 class="header-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
 				</div>
 				<div class="pricing__options options">
@@ -196,7 +283,6 @@
 			<div class="container">
 				<div class="customers__header-block header-block">
 					<h2 class="header-block__title">what our customers are saying</h2>
-					<hr class="header-block__separator">
 					<h5 class="header-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
 				</div>
 				<div class="customers__comments comments">
@@ -260,8 +346,73 @@
 			</div>
 		</section>
 
-		<!-- временно, для отступа -->
-		<br><br>
+		<section class="banner2">
+			<div class="container">
+				<div class="banner2__header-block header-block">
+					<h2 class="header-block__title header-block__title--white">STYLISH AXURE DESIGN</h2>
+					<h5 class="header-block__subtitle header-block__subtitle--white">
+						Use the sections you need, remove
+						the ones you don't. Create gorgeous prototypes faster than ever!
+					</h5>
+				</div>
+				<a class="banner2__button button button--white" href="#">Download</a>
+			</div>
+		</section>
+
+		<section class="contact">
+			<div class="container">
+				<div class="contact__header-block header-block">
+					<h2 class="header-block__title">contact us</h2>
+					<h5 class="header-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+				</div>
+				<form class="contact__form form-contact" action="">
+					<div class="form-contact__inputs">
+						<div class="form-contact__col">
+							<input class="form-contact__inp-name input" type="text" placeholder="Name" name="Name">
+							<input class="form-contact__inp-email input" type="email" placeholder="Email" name="Email">
+							<input class="form-contact__inp-pass input" type="password" placeholder="Password"
+								name="Password" />
+						</div>
+						<div class="form-contact__col">
+							<textarea class="form-contact__inp-message input" name="Message"
+								placeholder="Message"></textarea>
+						</div>
+					</div>
+					<input class="form-contact__button button button--red" type="submit" value="Send Message">
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__images">
+						<div class="footer__pic">
+							<a href="#"><img src="pic/facebook_icon.svg" alt="facebook"></a>
+						</div>
+						<div class="footer__pic">
+							<a href="#"><img src="pic/twitter_icon.svg" alt="twitter"></a>
+						</div>
+						<div class="footer__pic">
+							<a href="#"><img src="pic/linkedin_icon.svg" alt="linkedin"></a>
+						</div>
+						<div class="footer__pic">
+							<a href="#"><img src="pic/pinterest_icon.svg" alt="pinterest"></a>
+						</div>
+						<div class="footer__pic">
+							<a href="#"><img src="pic/instagram_icon.svg" alt="instagram"></a>
+						</div>
+						<div class="footer__pic">
+							<a href="#"><img src="pic/github_icon.svg" alt="github"></a>
+						</div>
+						<div class="footer__pic">
+							<a href="#"><img src="pic/rss_icon.svg" alt="rss"></a>
+						</div>
+					</div>
+					<h5 class="footer__text">© 2015 Axure Themes</h5>
+				</div>
+			</div>
+		</footer>
 	</div>
 
 </body>
