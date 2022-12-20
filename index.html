@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<title></title>
-	<link rel="stylesheet" href="css/styles.css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>AXIT</title>
 </head>
 
 <body>
@@ -14,6 +19,7 @@
 					<div class="header__logo">
 						<img src="pic/logo.svg" alt="logo">
 					</div>
+					<div class="header__burger"><span></span></div>
 					<nav class="header__menu menu">
 						<ul class="menu__list">
 							<li class="menu__item"><a class="menu__link" href="#">features</a></li>
@@ -39,7 +45,7 @@
 								MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
 							</h2>
 							<h5 class="header-block__subtitle header-block__subtitle--white">
-								Lorem ipsum dolor sit amet, <br>
+								Lorem ipsum dolor sit amet,
 								consectetur adipiscing elit
 							</h5>
 						</div>
@@ -126,7 +132,9 @@
 											bibendum laoreet.
 										</p>
 									</div>
-									<a class="cards__button button button--red" href="#">Download</a>
+									<div class="cards__btn-wrapper">
+										<a class="cards__button button button--red" href="#">Download</a>
+									</div>
 								</div>
 								<div class="cards__pic-col">
 									<img src="pic/content1.jpg" alt="">
@@ -150,7 +158,9 @@
 											bibendum laoreet.
 										</p>
 									</div>
-									<a class="cards__button button button--red" href="#">Download</a>
+									<div class="cards__btn-wrapper">
+										<a class="cards__button button button--red" href="#">Download</a>
+									</div>
 								</div>
 								<div class="cards__pic-col">
 									<img src="pic/content2.jpg" alt="">
@@ -174,7 +184,9 @@
 											bibendum laoreet.
 										</p>
 									</div>
-									<a class="cards__button button button--red" href="#">Download</a>
+									<div class="cards__btn-wrapper">
+										<a class="cards__button button button--red" href="#">Download</a>
+									</div>
 								</div>
 								<div class="cards__pic-col">
 									<img src="pic/content3.jpg" alt="">
@@ -236,43 +248,49 @@
 				<div class="pricing__options options">
 					<div class="optios__inner">
 						<div class="options__box">
-							<ul class="options__box-list">
-								<li class="options__box-item options__box-item--black">Basic</li>
-								<li class="options__box-item options__box-item--black">$10</li>
-								<li class="options__box-item options__box-item--black">Free for life</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-							</ul>
+							<div class="options__box-inner">
+								<ul class="options__box-list">
+									<li class="options__box-item options__box-item--black">Basic</li>
+									<li class="options__box-item options__box-item--black">$10</li>
+									<li class="options__box-item options__box-item--black">Free for life</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+								</ul>
+							</div>
 						</div>
 						<div class="options__box">
-							<ul class="options__box-list">
-								<li class="options__box-item options__box-item--black">Optima</li>
-								<li class="options__box-item options__box-item--black">$20</li>
-								<li class="options__box-item options__box-item--black">Free for life</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-							</ul>
+							<div class="options__box-inner">
+								<ul class="options__box-list">
+									<li class="options__box-item options__box-item--black">Optima</li>
+									<li class="options__box-item options__box-item--black">$20</li>
+									<li class="options__box-item options__box-item--black">Free for life</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+								</ul>
+							</div>
 						</div>
 						<div class="options__box">
-							<ul class="options__box-list">
-								<li class="options__box-item options__box-item--black">Pro</li>
-								<li class="options__box-item options__box-item--black">$30</li>
-								<li class="options__box-item options__box-item--black">Free for life</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-								<li class="options__box-item">1 gb of space</li>
-							</ul>
+							<div class="options__box-inner">
+								<ul class="options__box-list">
+									<li class="options__box-item options__box-item--black">Pro</li>
+									<li class="options__box-item options__box-item--black">$30</li>
+									<li class="options__box-item options__box-item--black">Free for life</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+									<li class="options__box-item">1 gb of space</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -285,6 +303,73 @@
 					<h2 class="header-block__title">what our customers are saying</h2>
 					<h5 class="header-block__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
 				</div>
+
+				<div class="customers-slider swiper">
+					<div class="customers-slider__wrapper swiper-wrapper">
+						<div class="customers-slider__slide comments swiper-slide">
+							<div class="comments__item">
+								<p class="comments__text">
+									Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit. Doloribus
+									accusamus expedita repellat similique
+									odio aspernatur ex, architecto eaque
+									quo suscipit.
+								</p>
+								<div class="comments__profile profile">
+									<div class="profile__img">
+										<img src="pic/davis.jpg" alt="">
+									</div>
+									<div class="profile__info">
+										<h4 class="profile__name">Davis Rhiel Madsen</h4>
+										<h5 class="profile__descryption">Manager</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="customers-slider__slide comments swiper-slide">
+							<div class="comments__item">
+								<p class="comments__text">
+									Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit. Doloribus
+									accusamus expedita repellat similique
+									odio aspernatur ex, architecto eaque
+									quo suscipit.
+								</p>
+								<div class="comments__profile profile">
+									<div class="profile__img">
+										<img src="pic/davis.jpg" alt="">
+									</div>
+									<div class="profile__info">
+										<h4 class="profile__name">Davis Rhiel Madsen</h4>
+										<h5 class="profile__descryption">Manager</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="customers-slider__slide comments swiper-slide">
+							<div class="comments__item">
+								<p class="comments__text">
+									Lorem ipsum dolor sit amet,
+									consectetur adipisicing elit. Doloribus
+									accusamus expedita repellat similique
+									odio aspernatur ex, architecto eaque
+									quo suscipit.
+								</p>
+								<div class="comments__profile profile">
+									<div class="profile__img">
+										<img src="pic/davis.jpg" alt="">
+									</div>
+									<div class="profile__info">
+										<h4 class="profile__name">Davis Rhiel Madsen</h4>
+										<h5 class="profile__descryption">Manager</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="customers-pagination swiper-pagination"></div>
+				</div>
+
 				<div class="customers__comments comments">
 					<div class="comments__inner">
 						<div class="comments__item">
@@ -343,6 +428,8 @@
 						</div>
 					</div>
 				</div>
+
+
 			</div>
 		</section>
 
@@ -378,7 +465,9 @@
 								placeholder="Message"></textarea>
 						</div>
 					</div>
-					<input class="form-contact__button button button--red" type="submit" value="Send Message">
+					<div class="form-contact__btn-wrapper">
+						<input class="form-contact__button button button--red" type="submit" value="Send Message">
+					</div>
 				</form>
 			</div>
 		</section>
@@ -413,6 +502,10 @@
 				</div>
 			</div>
 		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+		<script src="js/script.js"></script>
 	</div>
 
 </body>
