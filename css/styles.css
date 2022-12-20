@@ -89,6 +89,10 @@ h6 {
 }
 
 /* ........................................... */
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: rgb(255, 255, 255);
 	font-family: "Raleway";
