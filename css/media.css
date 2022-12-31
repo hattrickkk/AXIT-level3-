@@ -572,7 +572,7 @@
 
 	/* --------tabs------------------ */
 	.tabs__label {
-		padding: 12px 38px;
+		padding: 12px 36px;
 	}
 
 	#tabs__item1:checked~.tabs__label1 {
@@ -632,7 +632,7 @@
 	}
 
 	.tabs__label {
-		padding: 12px 30px;
+		padding: 12px 28px;
 	}
 
 	.cards__pic-col img {
@@ -789,10 +789,15 @@
 	}
 }
 
-@media (max-width: 313px) {
+@media (max-width: 317px) {
 
 	/* --------tabs------------------ */
 	.tabs__label {
-		padding: 12px 20px;
+		padding: 12px 17px;
+	}
+
+	#tabs__item1:checked~.tabs__label1 {
+		border: 1.5px solid #C6CBCD;
+		border-bottom: 1px solid rgb(255, 255, 255);
 	}
 }
